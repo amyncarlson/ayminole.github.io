@@ -1,8 +1,30 @@
-body {
+left-column {
+    position: fixed;
+    float: left;
+    width: 200px;
+}
+
+header > img {
+    height: 500px;
+}
+
+
+main {
     background-color: white;
+    float: right;
+    padding-left: 220px;
+    padding-right: auto;
+  }
+
+left-column > img {
+    max-width: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
 }
 
 header {
-    max-height: 100px;
-    position: fixed;
+    max-height: auto;
+    padding: 30px;
 }
