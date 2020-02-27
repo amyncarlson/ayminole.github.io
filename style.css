@@ -1,3 +1,14 @@
+:root {
+    --top-row-height: 120px;
+    --gutter: 20px;
+    --blue: #0B404B;
+    --gold: #D49125;
+    --purple: #631825;
+    --green: #345B38;
+    --orange: #B73F1E;
+  }
+
+
 left-column {
     position: fixed;
     float: left;
@@ -5,15 +16,24 @@ left-column {
 }
 
 header > img {
-    height: 500px;
+    opacity: 0.25;
+    width: 100%;
+    display: block;
 }
 
+header {
+    max-height: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+}
 
 main {
     background-color: white;
     float: right;
     padding-left: 220px;
-    padding-right: auto;
+    padding-right: 100px;
+    margin: 50px;
   }
 
 left-column > img {
@@ -24,7 +44,4 @@ left-column > img {
     border-width: 10px;
 }
 
-header {
-    max-height: auto;
-    padding: 30px;
-}
+
